@@ -12,7 +12,7 @@ def SendMailApp():
     EMAIL_ADRESS = os.environ.get('EM_USER')
     EMAIL_PASSWORD = os.environ.get('EM_PASSWORD')
 
-    contacts = ['danilo.altomar@gmx.de']
+    contacts = ['email@email.de']
 
     msg = EmailMessage()
     msg['Subject'] = 'Vencimento Alimentos'
